@@ -26,7 +26,7 @@ class MyHomePage extends StatelessWidget {
         title: Text('제목'),
       ),
       body:
-      Column(
+      Row(
         children: <Widget>[
           Container(
             color: Colors.red,
